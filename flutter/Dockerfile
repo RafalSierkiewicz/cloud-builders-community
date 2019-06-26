@@ -56,4 +56,8 @@ RUN flutter doctor -v
 # Perform a flutter upgrade
 RUN flutter upgrade
 
+RUN flutter analyze
+
+RUN flutter test
+
 ENTRYPOINT [ "flutter" ]
